@@ -1,13 +1,13 @@
 {
     "pluginName": "QuickTypora",
     "description": "快速打开Typora中最近的文件或文件夹",
-    "preload": "index.js",
+    "preload": "preload.js",
     "platform": ["win32"],
     "author": "Twiliness",
     "logo": "app.png",
     "version": "0.0.1",
     "features": [{
-        "code": "Typora",
+        "code": "Typo",
         "explain": "快速打开Typora中最近的文件或文件夹",
         "cmds": ["typo","md"]
     }]
